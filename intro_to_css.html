@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Intro to CSS</title>
+
+    <style>
+        body{
+            background-color: rgb(119, 175, 144);
+        }
+        p{ color:rgb(31, 47,255)}
+        #reyes_catolicos {color:rgb(255, 255,255)}
+        .guerra{background-color:rgb(191, 241, 241);}
+    </style>
+</head>
+<body>
+    <h1>Introducción a CSS</h1>
+    <p>Para cambiar el estilo de nuestra página web utilizamos CSS, hojas de estilo en cascada, hay distintas formas de seleccionar las etiquetas para cambiar el estilo:</p>
+    <h2>Selecting by tag name:</h2>
+    <p>En este caso, escribiremos la etiqueta style, y dentro de ella p, para cambiar el color de todos los párrafos, y entre corchetes la etiqueta de la cualidad que queramos cambiar, en nuestro caso cambiaremos el color. Además, cambiaremos el color de fondo de la pantalla, escribiendo body y entre corchetes background-color:</p>
+    <p>En esta página hablaremos de 3 fechas muy importantes para la península ibérica durante el reinado de los Reyes Católicos.</p>
+    <h2>El tratado de tordesillas</h2>
+    <p> Ocurrió en 1494. Fue un tratado muy importante que estableció la repartición de los territorios entre Portugal y España.</p>
+
+    <h2>Selecting by id:</h2>
+    <p>En este caso, podremos crear un id de la etiqueta de lo que queramos cambiar el estilo, y así solo se cambiará ese título o ese párrafo. En este caso cambiaremos el color de un sólo párrafo:
+        <p id="reyes_catolicos">El 1492 fue un año clave para la restauración de poder real de los Reyes Católicos, tras la expulsión judia y la conquista de Granada, el catolicismo se convirtió en la religión oficial. Añadido al descubrimiento de américa, que supuso una expansión económica y social.
+        </p>
+        </p>
+    <h2>Selecting by class:</h2>
+    <p>El tercer y último método para cambiar el estilo es seleccionando las etiquetas que queremos por clase, en este caso cambiaremos el color de fondo del siguiente párrafo:<br>
+    </p>
+    <p class="guerra">Entre el 1494 y el 1499 se dieron las guerras de Italia, en las que se utilizó un sistema de guerra más moderno, que logró vencer incluso a la armería pesada francesa.</p>
+
+</body>
+</html>
